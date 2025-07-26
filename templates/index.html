@@ -1,0 +1,25 @@
+]<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gender and Age Detection</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/bstyle.css') }}">
+</head>
+<body>
+    <div>
+        <img class="logo" src="{{ url_for('static', filename='images/logo.png') }}" width="500">
+    </div>
+    <h1 class="head">AI-BASED AGE AND GENDER PREDICTION WITH HEALTHY DIET ADVICE</h1>
+    <center>
+        <div class="btnclass">
+            <form action="/run_python" method="post">
+                <button type="submit" id="runButton">Let's Start</button>
+            </form>
+        </div>
+    </center>
+    <div class="para">
+        <p>This project is done by BASIL, AKHIL, and MEGHA, and we warmly welcome you to this project</p>
+    </div>
+</body>
+</html>

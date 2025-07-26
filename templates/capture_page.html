@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Age and Gender Detection</title>
+</head>
+<body>
+    <h1>Age and Gender Detection</h1>
+    <p>Captured Age: {{ age }}</p>
+    <p>Captured Gender: {{ gender }}</p>
+
+    <!-- Add a button to trigger the capture -->
+    <form action="/capture" method="post">
+        <button type="submit">Capture Age and Gender</button>
+    </form>
+</body>
+</html>
